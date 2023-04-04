@@ -4,6 +4,7 @@ import ExImg3 from './assets/ex-img-3.png';
 import ExImg4 from './assets/ex-img-4.png';
 import ExImg5 from './assets/ex-img-5.png';
 import ExImg6 from './assets/ex-img-6.png';
+import ExImg10 from './assets/planificacion.avif';
 import ExImg7 from './assets/ex-img-7.png';
 import ExImg8 from './assets/ex-img-8.png';
 import ExImg9 from './assets/ex-img-9.png';
@@ -27,7 +28,7 @@ export const dumiProjects = [
         images: [ExImg3, ExImg3],
     },
     {
-        name: 'Lorem ipsum',
+        name: 'Sospechar no falla',
         slug: 'lorem-ipsum-web-3',
         category: 'Desarrollos web',
         descrption:
@@ -40,7 +41,7 @@ export const dumiProjects = [
         category: 'Desarrollos web',
         descrption:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod nisi vitae elementum eleifend. Aenean vehicula massa non nunc commodo, eu molestie justo molestie. Nullam suscipit velit metus, sed finibus augue mollis id. Aenean elementum non nisi at pellentesque. Integer finibus, tortor vel dapibus eleifend, ante nulla pellentesque mi, ut sodales augue nisl sit amet massa. Mauris et blandit augue, non dignissim mauris.',
-        images: [ExImg6, ExImg6],
+        images: [ExImg10, ExImg10],
     },
     {
         name: 'Lorem ipsum',

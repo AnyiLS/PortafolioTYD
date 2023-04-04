@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,100&display=swap");
+
 @font-face {
   font-family: 'Avant-bold';
   src: url(./assets/ITCAvantGardeStd-Bold\ -\ copia.otf) format('truetype');
+}
+
+.wor1 {
+  transform: translate3d(0px, 0px, 0px) rotateZ(357deg) scale(1);
 }
 
 .btn {
@@ -21,6 +27,10 @@
 .btn:hover {
   background-color: #f9a12f;
   color: #fff;
+}
+
+.swiper-wrapper {
+  width: 360px;
 }
 
 .gradient {
@@ -96,4 +106,76 @@
   .section {
     @apply py-8 lg:py-20 lg:h-auto flex items-center;
   }
+}
+
+
+.filter-btn i {
+  display: block;
+  line-height: 0;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.filter-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  min-width: 120px;
+  text-align: center;
+  justify-content: center;
+  padding: 5px 18px;
+}
+
+.filter-category-wrap {
+  margin-bottom: 30px;
+  border-radius: 8px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  background-color: #3458a3;
+  margin-top: 10px;
+}
+
+.row {
+  --bs-gutter-x: 30px;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.category-list li img {
+  max-width: 31px;
+  flex: 0 0 31px;
+  margin-right: 10px;
+}
+
+.category-list li p {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.category-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-list li {
+  margin: 4px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #f8a12f;
+}
+
+.gonts {
+  font-family: 'Poppins', sans-serif;
+  text-transform: inherit !important;
 }

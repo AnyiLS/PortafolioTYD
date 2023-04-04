@@ -28,9 +28,12 @@ module.exports = {
             },
             backgroundImage: {
                 site: "url('./assets/bceml.png')",
-                about: "url('./assets/about.png')",
+                // about: "url('./assets/about.png')",
                 services: "url('./assets/services.png')",
             },
+            width: {
+                360: "360px"
+            }
         },
     },
     plugins: [],
