@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from '../assets/logo.png';
+import Toggle from "../components/Toggle/Toggle";
 
 const Header = () => {
     return (
@@ -13,7 +14,7 @@ const Header = () => {
                             className='w-[100px] lg:w-[200px]'
                         />
                     </a>
-                    <button className='btn btn-sm'>Trabaja con nosotros</button>
+                    <Toggle />
                 </div>
             </div>
         </header>
