@@ -179,3 +179,12 @@
   font-family: 'Poppins', sans-serif;
   text-transform: inherit !important;
 }
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid var(--orange);
+  border-radius: 1rem;
+  position: relative;
+  padding: 2px;
+  cursor: pointer;
+}
