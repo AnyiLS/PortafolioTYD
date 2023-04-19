@@ -8,7 +8,7 @@ const RouterApp = () => {
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<MainScreen />} />
-                <Route path='/proyecto/:nombre' element={<ProjectScreen />} />
+                <Route path='/proyecto/:id' element={<ProjectScreen />} />
             </Routes>
         </BrowserRouter>
     );

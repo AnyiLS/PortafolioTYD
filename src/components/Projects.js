@@ -141,7 +141,7 @@ const Projects = () => {
                     <div className="cursor-pointer group-hover:bg-blue-900/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                     <img
                       className="group-hover:scale-125 transition-all duration-500"
-                      src={item.images[0]}
+                      src={item.images[0].url}
                       alt="img"
                     />
                     <div className="absolute -top-full w-[30%] lg:w-[20%] group-hover:top-5 right-5 transition-all duration-500 z-50">

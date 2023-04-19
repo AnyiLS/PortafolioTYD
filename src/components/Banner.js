@@ -116,60 +116,61 @@ const Banner = () => {
             variants={fadeIn("left", 0.4)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[360px] relative bg-about bg-contain bg-no-repeat  bg-bottom"
+            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[320px] relative bg-about bg-contain bg-no-repeat  bg-bottom"
           >
             {/* Slider cartas */}
             <Swiper
               effect="cards"
               modules={[EffectCards]}
-              className="w-[360px] h-[520px] wor1"
+              className="w-[320px] h-[520px] wor1"
             >
               <SwiperSlide
-                className=" items-center justify-center rounded-[18px] text-[22px] font-bold text-white w-360"
-                style={{ display: "flex", height:532 }}
+                className=" items-center justify-center rounded-[18px] text-[22px] font-bold text-white"
+                style={{ background: "rgb(222, 110, 5, 0)", display: "flex", height:532,  }}
               >
                 <a
-                  href="https://material-interactivo-allegra-col.eml.com.co/"
+                  href="https://juegos-portafolio.eml.com.co/memory/index.html"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src="/image.png" className="w-full h-full" />
+                  <img src="/image3.png" style={{  width: 267, borderRadius: 41 }} />
                 </a>
               </SwiperSlide>
               <SwiperSlide
-                className=" items-center justify-center rounded-[18px] text-[22px] font-bold text-white"
-                style={{ background: "rgb(222, 110, 5)", display: "flex", height:532 }}
+                className=" items-center justify-center rounded-[18px] text-[22px] font-bold text-white w-360"
+                style={{ background: "rgb(222, 110, 5, 0)", display: "flex", height:532 }}
               >
                 <a
-                  href="https://candy-virid.vercel.app/"
+                  href="http://rompecabezas.eml.com.co/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src="/image3.png" />
+                  <img src="/image.png" className="w-full h-full" style={{  width: 267, borderRadius: 41 }}  />
                 </a>
               </SwiperSlide>
+              
               <SwiperSlide
                 className=" items-center relative justify-center rounded-[18px] text-[22px] font-bold text-white"
-                style={{ background: "rgb(206, 17, 17)", display: "flex", height:532 }}
+                style={{ background: "rgb(222, 110, 5, 0)", display: "flex", height:532 }}
               >
                 <a
-                  href="https://candy-virid.vercel.app/"
+                  href="http://juegos-portafolio.eml.com.co/bubble-shooter/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src="/imagen10.png" />
+                  <img src="/imagen10.png" style={{  width: 267, borderRadius: 41 }} />
                 </a>
               </SwiperSlide>
               <SwiperSlide
                 className=" items-center justify-center rounded-[18px] text-[22px] font-bold text-white"
-                style={{ display: "flex", height:532 }}
+                style={{ display: "flex", background: "rgb(222, 110, 5, 0)", height:532 }}
               >
                 <a
-                  href="https://candy-virid.vercel.app/"
+                  href="https://sospechar-eml.eml.com.co/"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src="/image1.png" />
+                  <img src="/image1.png" style={{  width: 267, borderRadius: 41 }} />
                 </a>
               </SwiperSlide>
               <SwiperSlide
